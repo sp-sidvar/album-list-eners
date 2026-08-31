@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0001",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa545b439cf7d8f4510bf3df50c7",
+    "name": "nem tudo é sobre amor",
+    "artist": "Quem é você Alice?",
+    "genre": "Rock",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/31YveD0kn0aylx4f8YVunu"
+  },
+  {
+    "id": "0001",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa543d63adb38f5e76fd5c33a75d",
+    "name": "Passatempo",
+    "artist": "Quarto Vazio",
+    "genre": "Poprock",
+    "year": "2024",
+    "redirection": "https://open.spotify.com/album/5QvgT7AVagkBPJdUZqByej"
+  },
+  {
+    "id": "0003",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5466f6ed5b50bd2227bfc61d7b",
+    "name": "Afeto e Outros Esportes de Contato",
+    "artist": "Bella e o Olmo da Bruxa",
+    "genre": "Punkrock",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/0WI5yRUF6Kr8Jow3gkmRII"
+  }
+]
