@@ -1,10 +1,129 @@
 #navbar {
-    width: 100vw;
-    height: 70px;
+  width: 100vw;
+  min-height: 60px;
+  background-color: var(--social-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  padding: 8px 16px;
+  box-sizing: border-box;
+
+  #filter {
     display: flex;
     flex-direction: row;
-    background-color: #1f2028;
-    display: flex;
     align-items: center;
+    gap: 12px;
+    color: var(--bg);
+    font-family: var(--mono);
+    font-size: 13px;
+    width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
+
+    input[type="text"],
+    select {
+      background-color: var(--social-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 13px;
+      outline: none;
+      transition: all 0.2s ease;
+      height: 34px;
+      box-sizing: border-box;
+
+      &::placeholder {
+        color: var(--text);
+      }
+
+      &:focus {
+        border-color: var(--code-bg);
+      }
+    }
+
+    input[type="text"] {
+      width: 250px;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      user-select: none;
+      color: var(--text);
+      height: 34px;
+      margin: 0 0 0 5px;
+
+      &:hover {
+        color: var(--text);
+      }
+    }
+
+    input[type="checkbox"] {
+      accent-color: var(--code-bg);
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    button[type="submit"] {
+      background-color: var(--border);
+      color: var(--text);
+      border: none;
+      border-radius: 6px;
+      padding: 0 14px;
+      height: 34px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition:
+        background-color 0.2s ease,
+        transform 0.1s ease;
+
+      &:hover {
+        background-color: var(--code-bg);
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    height: auto;
+    padding: 10px;
+
+    #filter {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      max-width: 500px;
+
+      input[type="text"] {
+        width: 100%;
+        grid-column: span 2;
+      }
+
+      select {
+        width: 100%;
+      }
+
+      label {
+        align-items: center;
+        justify-content: start;
+        font-size: 14px;
+      }
+
+      button[type="submit"] {
+        width: 100%;
+      }
+    }
+  }
 }

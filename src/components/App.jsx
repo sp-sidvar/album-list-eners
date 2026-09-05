@@ -1,12 +1,12 @@
 import { Gallery } from "./Gallery";
-// import { Filter } from "./Filter";
+import { Filter } from "./Filter";
 
 export function App() {
   return (
     <>
-      {/* <header>
+      <header>
         <Filter />
-      </header> */}
+      </header>
       <main>
         <Gallery />
       </main>
