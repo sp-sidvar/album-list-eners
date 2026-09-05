@@ -1,0 +1,10 @@
+#navbar {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

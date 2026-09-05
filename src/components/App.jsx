@@ -1,9 +1,15 @@
 import { Gallery } from "./Gallery";
+// import { Filter } from "./Filter";
 
 export function App() {
   return (
-    <main>
-      <Gallery />
-    </main>
+    <>
+      {/* <header>
+        <Filter />
+      </header> */}
+      <main>
+        <Gallery />
+      </main>
+    </>
   );
 }

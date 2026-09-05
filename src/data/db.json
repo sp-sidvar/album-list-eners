@@ -892,7 +892,7 @@
   },
   {
     "id": "0100",
-    "cover": "Lil Supa",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5483b120ac264aa0a63ef8323d",
     "name": "ÍCONOS",
     "artist": "Lil Supa",
     "genre": "Rap",
@@ -1114,5 +1114,302 @@
     "genre": "Numetal",
     "year": "1997",
     "redirection": "https://open.spotify.com/album/7o4UsmV37Sg5It2Eb7vHzu"
+  },
+  {
+    "id": "0125",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54f00d9c29f0eb7691f908f23a",
+    "name": "Siamese Dream",
+    "artist": "The Smashing Pumpkins",
+    "genre": "Altrock",
+    "year": "1993",
+    "redirection": "https://open.spotify.com/album/2Qs2SpclDToB087fLolhCN"
+  },
+  {
+    "id": "0126",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54638404f3498c5c96c220cbf8",
+    "name": "Houdini",
+    "artist": "Melvins",
+    "genre": "Punk",
+    "year": "1993",
+    "redirection": "https://open.spotify.com/album/0agYsmUl1uS32ZFHKQ8L8W"
+  },
+  {
+    "id": "0127",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa542ed6d7b6542a09ec40946198",
+    "name": "Selección Natural",
+    "artist": "Granuja",
+    "genre": "Rap",
+    "year": "2018",
+    "redirection": "https://open.spotify.com/album/128Quqrd9Nqtnq8NtXyQQi"
+  },
+  {
+    "id": "0128",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5443412799606f447ec191f5b5",
+    "name": "Le Corbusier",
+    "artist": "Douglass",
+    "genre": "Rap",
+    "year": "2023",
+    "redirection": "https://open.spotify.com/album/14mJFsFgjtaNRvIQszSxpq"
+  },
+  {
+    "id": "0129",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa540538b48c180256e0bdd8363f",
+    "name": "blink-182",
+    "artist": "blink-182",
+    "genre": "Punk",
+    "year": "2003",
+    "redirection": "https://open.spotify.com/album/4hBTxv4QRPePXCFcEI7Vjp"
+  },
+  {
+    "id": "0130",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54db89b08034de626ebee6823d",
+    "name": "Dookie",
+    "artist": "Green Day",
+    "genre": "Punk",
+    "year": "1994",
+    "redirection": "https://open.spotify.com/album/4uG8q3GPuWHQlRbswMIRS6"
+  },
+  {
+    "id": "0131",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54d9d27e5b56e2b983e54dba64",
+    "name": "Take Off Your Pants And Jacket",
+    "artist": "blink-182",
+    "genre": "Punk",
+    "year": "2001",
+    "redirection": "https://open.spotify.com/album/3nHpBmW5wJXGeC3ojBkpey"
+  },
+  {
+    "id": "0132",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54af71e889d130283bcd08b8a7",
+    "name": "Revolution Radio",
+    "artist": "Green Day",
+    "genre": "Punk",
+    "year": "2016",
+    "redirection": "https://open.spotify.com/album/5a3LqvNt2nv1B4aRKXmgOV"
+  },
+  {
+    "id": "0133",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa541a05b72d0e1fc7a4e30d047d",
+    "name": "Undercurrent",
+    "artist": "Bill Evans",
+    "genre": "Jazz",
+    "year": "1962",
+    "redirection": "https://open.spotify.com/album/3b2s2A8DPISbaQNxhrEsGQ"
+  },
+  {
+    "id": "0134",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54a53140b093af7bbb4ec4d614",
+    "name": "Half Moon Bay",
+    "artist": "Bill Evans",
+    "genre": "Jazz",
+    "year": "1998",
+    "redirection": "https://open.spotify.com/album/1JUspunKSa2Q3oPvo8559R"
+  },
+  {
+    "id": "0135",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5416bc3eecbbe30ae8744237e2",
+    "name": "You're Gonna Hear From Me",
+    "artist": "Bill Evans",
+    "genre": "Jazz",
+    "year": "1988",
+    "redirection": "https://open.spotify.com/album/6Thtq5sXXzQb41zCl5FZVQ"
+  },
+  {
+    "id": "0136",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa547869c8cd738af099cffbe2d0",
+    "name": "On Green Dolphin Street",
+    "artist": "Bill Evans",
+    "genre": "Jazz",
+    "year": "1975",
+    "redirection": "https://open.spotify.com/album/36qVpx6Ra3F9EqgX4mAMqW"
+  },
+  {
+    "id": "0137",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa548d53125423ec63f1338ad99a",
+    "name": "Eloquence",
+    "artist": "Bill Evans",
+    "genre": "Jazz",
+    "year": "1982",
+    "redirection": "https://open.spotify.com/album/5S5NOcdK22OAUgLIengOIy"
+  },
+  {
+    "id": "0138",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54d244d3806da3861f7b1b46ba",
+    "name": "Youth",
+    "artist": "Lng Sht",
+    "genre": "Rap",
+    "year": "2013",
+    "redirection": "https://open.spotify.com/album/6EUNkDy9D6q9UJ3hfFROz1"
+  },
+  {
+    "id": "0139",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54d43b17494a65639a731a45d5",
+    "name": "Buenos Adultos",
+    "artist": "Lng Sht",
+    "genre": "Rap",
+    "year": "2022",
+    "redirection": "https://open.spotify.com/album/1qkCpcYwTdl4OWpdZLc1ZN"
+  },
+  {
+    "id": "0140",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5451ddfff8f17cd9e904370885",
+    "name": "Mini Súper El Rey",
+    "artist": "Muelas De Gallo",
+    "genre": "Rap",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/7MhzuH0ei0xKYroZ3PSdDG"
+  },
+  {
+    "id": "0141",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa548850af2af14637c1e73e09ae",
+    "name": "Sin Maletas",
+    "artist": "Charles Ans",
+    "genre": "Rap",
+    "year": "2015",
+    "redirection": "https://open.spotify.com/album/1MHvm1gns1yjtmiCej5Lqf"
+  },
+  {
+    "id": "0142",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa542b54018ae4cd0c1591dd1d51",
+    "name": "Japanese Bonus Tracks, Vol.1",
+    "artist": "Lng Sht",
+    "genre": "Rap",
+    "year": "2024",
+    "redirection": "https://open.spotify.com/album/6dY0IlktRqyrDO96iqnw6i"
+  },
+  {
+    "id": "0143",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54dbd6f8b3382931f19120b11f",
+    "name": "Jungle Obsession",
+    "artist": "Nino Nardini",
+    "genre": "Jazz",
+    "year": "2014",
+    "redirection": "https://open.spotify.com/album/0K8kxH3K4DmHUkzIdz1Dt8"
+  },
+  {
+    "id": "0144",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54c6ceea24883cb2adad1bbe07",
+    "name": "Made in U.S.A.",
+    "artist": "Narassa",
+    "genre": "Jazz",
+    "year": "1972",
+    "redirection": "https://open.spotify.com/album/5b2onclR1TUTH4DG3VINWZ"
+  },
+  {
+    "id": "0145",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54726860f1d1e201e000aa3c7e",
+    "name": "Mr. Hands",
+    "artist": "Herbie Hancock",
+    "genre": "Jazz",
+    "year": "1980",
+    "redirection": "https://open.spotify.com/album/0ZzOJ3XuyVDBIWxrA17YE5"
+  },
+  {
+    "id": "0146",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5401c42f9ef122c20778d74836",
+    "name": "TRES CREUS",
+    "artist": "Hoke",
+    "genre": "Rap",
+    "year": "2024",
+    "redirection": "https://open.spotify.com/album/3XBIEuPt853rX8Fn5DbG5s"
+  },
+  {
+    "id": "0147",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54fad3070fbbe7b7ebd0b5f72d",
+    "name": "2017",
+    "artist": "Nico Miseria | Mir Nicolas",
+    "genre": "Rap",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/6nEOeF9t2sdFkxu6oQ4LF0"
+  },
+  {
+    "id": "0148",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa547ab227a7f32cb9a757d49f4a",
+    "name": "La Madrugá",
+    "artist": "Delaossa",
+    "genre": "Rap",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/3Au0IW8JlUTwsvT4Ym6yL7"
+  },
+  {
+    "id": "0149",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54a270f83f52e32d56ae7c05ff",
+    "name": "Equilibrio",
+    "artist": "Dano",
+    "genre": "Rap",
+    "year": "2012",
+    "redirection": "https://open.spotify.com/album/23KA8KvrDXsG8W2jKgyegC"
+  },
+  {
+    "id": "0150",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5412c5b189265ce5a14e3d31db",
+    "name": "Cruza el umbral",
+    "artist": "Templo",
+    "genre": "Rap",
+    "year": "2024",
+    "redirection": "https://open.spotify.com/album/0PszZsZV2say1rHdRlMoe3"
+  },
+  {
+    "id": "0151",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54130fad2aec1c9c9763968d97",
+    "name": "God Don't Make Mistakes",
+    "artist": "Conway the Machine",
+    "genre": "Rap",
+    "year": "2022",
+    "redirection": "https://open.spotify.com/album/4w1BBgCcUVv54r3zJenKpG"
+  },
+  {
+    "id": "0152",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa545e447ddbf7a4de8f278bf295",
+    "name": "You Can't Kill God With Bullets",
+    "artist": "Conway the Machine",
+    "genre": "Rap",
+    "year": "2025",
+    "redirection": "https://open.spotify.com/album/01Vxh3LuDbJb2jLAlJYoyG"
+  },
+  {
+    "id": "0153",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54f8c4265eafd3f59221009c1e",
+    "name": "G.O.A.T",
+    "artist": "Conway the Machine",
+    "genre": "Rap",
+    "year": "2026",
+    "redirection": "https://open.spotify.com/album/5poxQXQFBNwfG2zLattqKX"
+  },
+  {
+    "id": "0154",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54e3b93c08d98f92dc3ab0146a",
+    "name": "Beats, Rhymes & Life",
+    "artist": "A Tribe Called Quest",
+    "genre": "Rap",
+    "year": "1996",
+    "redirection": "https://open.spotify.com/album/0EguP4tsJurU5I8ocCxdyb"
+  },
+  {
+    "id": "0155",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa54f306af1dae08f81f9d6f1f9f",
+    "name": "Midnight Marauders",
+    "artist": "A Tribe Called Quest",
+    "genre": "Rap",
+    "year": "1993",
+    "redirection": "https://open.spotify.com/album/4v5x3Oo3UjQ9YmF3hRAip5"
+  },
+  {
+    "id": "0156",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa549e7daa12ce91193f561d841f",
+    "name": "Malas Primeras Impresiones",
+    "artist": "Max Chinasky",
+    "genre": "Rap",
+    "year": "2016",
+    "redirection": "https://open.spotify.com/album/42gQ0QU3vVjQSxDvvvuHVc"
+  },
+  {
+    "id": "0157",
+    "cover": "https://i.scdn.co/image/ab67616d0000aa5482bba088493f8ac2797a6c4e",
+    "name": "La Verdad No Es Cultura de Masas",
+    "artist": "Max Chinasky",
+    "genre": "Rap",
+    "year": "2016",
+    "redirection": "https://open.spotify.com/album/17sIzNyQBVxGJITE14N8d6"
   }
 ]

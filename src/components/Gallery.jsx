@@ -1,7 +1,7 @@
 import { Album } from "./Album.jsx";
 import data from "../data/db.json";
 import "../classes/gallery-style.css";
-import { useState } from 'react';
+import { useState } from "react";
 
 const shuffleArray = (array) => {
   const copy = [...array];
@@ -23,16 +23,3 @@ export function Gallery() {
     </section>
   );
 }
-
-
-
-
-// export function Gallery() {
-//   return (
-//     <section className="content">
-//       {data.map((album) => (
-//         <Album key={album.id} data={album} />
-//       ))}
-//     </section>
-//   );
-// }
