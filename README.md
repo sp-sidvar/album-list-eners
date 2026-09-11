@@ -27,3 +27,7 @@ Esta aplicacion ayudara a compartir albumes musicales con el publico que desee c
 - doc JSON para almacenar datos de albumes
 ### Deploy
 Uso de GitHub Pages para despliegue por sencilles de proyecto y facil mantenimiento
+
+
+## Logs
+- 09/11/2026 - Se realiza primer despliegue con UI estatica
