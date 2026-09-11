@@ -4,10 +4,10 @@ export function Filter(){
     return (
         <nav id="navbar">
             <form id="filter">
-                <input type="text" placeholder="Artista" />
+                <input type="text" id="artist" placeholder="Artista" />
                 <select name="genre" id="genre" defaultValue=''></select>
                 <select name="anio" id="anio" defaultValue=''></select>
-                <button type="submit">Filtrar</button>
+                <button id="submitBtn" type="submit">Filtrar</button>
             </form>
         </nav>
     )

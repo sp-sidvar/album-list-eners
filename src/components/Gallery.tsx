@@ -8,7 +8,7 @@ export function Gallery() {
 
   return (
     <section className="content">
-      {albums.map((album) => (<Album key={album.id} data={album} />))};
+      {albums.map((album) => (<Album key={album.id} data={album} />))}
     </section>
   );
 }

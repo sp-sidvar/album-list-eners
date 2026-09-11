@@ -1,0 +1,19 @@
+.content {
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-rows: min-content;
+    gap: 20px;
+    padding: 20px 0;
+    justify-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+@media (max-width: 768px) {
+    .content{
+        margin-top: 100px;
+    }
+}

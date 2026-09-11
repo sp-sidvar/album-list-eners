@@ -1,0 +1,126 @@
+#navbar {
+    width: 100vw;
+    height: auto;
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-dark);
+    padding: 8px 16px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+
+    #filter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+
+        #artist {
+            background-color: var(--border-dark);
+            color: var(--text-dark);
+            border: 1px solid #000;
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 13px;
+            outline: none;
+            transition: all 0.2s ease;
+            width: 250px;
+            height: 34px;
+            box-sizing: border-box;
+
+            &::placeholder {
+                color: var(--text-dark);
+            }
+
+            &:focus {
+                border-color: var(--text-dark);
+            }
+        }
+
+        #genre {
+            border: 1px solid #000;
+            background-color: var(--border-dark);
+            color: var(--text-dark);
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 13px;
+            outline: none;
+            transition: all 0.2s ease;
+            width: 120px;
+            height: 34px;
+            box-sizing: border-box;
+        }
+
+        #anio {
+            border: 1px solid #000;
+            background-color: var(--border-dark);
+            color: var(--text-dark);
+            border-radius: 6px;
+            padding: 6px 10px;
+            font-size: 13px;
+            outline: none;
+            transition: all 0.2s ease;
+            width: 120px;
+            height: 34px;
+            box-sizing: border-box;
+        }
+
+        #submitBtn {
+            background-color: var(--border-dark);
+            color: var(--text-dark);
+            height: 34px;
+            border: none;
+            border-radius: 6px;
+            padding: 0 14px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+
+            &:hover {
+                background-color: var(--shadow-dark);
+            }
+
+            &:active {
+                transform: scale(0.95);
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        height: auto;
+        padding: 10px;
+
+        #filter {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            max-width: 500px;
+
+            #artist {
+                width: 100%;
+                grid-column: span 2;
+            }
+
+            #genre {
+                width: 100%;
+            }
+
+            #anio {
+                width: 100%;
+            }
+
+            #sumbitBtn {
+                width: 100%;
+            }
+        }
+    }
+}

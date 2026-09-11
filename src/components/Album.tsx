@@ -17,7 +17,7 @@ export function Album({data}: AlbumProps){
     return (
         <article className='albumArticle'>
             <a className='albumLink' href={data.redirection} target='_blank' rel='noopener noreferrer'>
-                <section className='albuCover'>
+                <section className='albumCover'>
                     <img className='albumImage' src={data.cover} alt={data.name} />
                 </section>
 
