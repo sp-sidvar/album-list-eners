@@ -15,10 +15,10 @@ Esta aplicacion ayudara a compartir albumes musicales con el publico que desee c
 - Posibilidad de realizar recomendaciones de nuevos albumes
 
 ## UI
-### **Arquitectura de información:**
-[Diseno UI](../recursos/) - Diseno final UI (por procesar)
-### **Guía de estilos:** 
-[Gua de estilos](../recursos/) - Colores, tipografias, iconos, componentes
+### Diseno UI 
+[Diseno UI](./recursos/ui/album-list-eners%20-%20UI.pdf)
+### Guía de estilos
+[Gua de estilos](./recursos/ui/album-list-eners%20-%20guia%20de%20estilos.pdf)
 
 ## Arquitectura
 ### Frontend
