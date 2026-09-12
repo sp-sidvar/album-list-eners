@@ -1,66 +1,67 @@
 :root {
-  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --mono: ui-monospace, Consolas, monospace;
 
-  font: 11px var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text-dark);
-  background: var(--bg-dark);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font: 11px var(--sans);
+    letter-spacing: 0.18px;
+    color-scheme: light dark;
+    color: var(--text-dark);
+    background: var(--bg-dark);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  ::-webkit-scrollbar {
-    display: none;
-    width: 0;
-    height: 0;
-  }
+    ::-webkit-scrollbar {
+        display: none;
+        width: 0;
+        height: 0;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --text-dark: #dcd7ba;
-    --bg-dark: #223249;
-    --border-dark: #54546d;
-    --shadow-dark:
-      rgba(0, 0, 0, 0.3) 0 10px 15px -3px, rgba(0, 0, 0, 0.35) 0 4px 6px -2px;
-    --article-dark: #363646;
-  }
+    :root {
+        --text-dark: #dcd7ba;
+        --bg-dark: #223249;
+        --border-dark: #54546d;
+        --shadow-dark:
+            rgba(0, 0, 0, 0.3) 0 10px 15px -3px,
+            rgba(0, 0, 0, 0.35) 0 4px 6px -2px;
+        --article-dark: #363646;
+    }
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 header {
     width: 100vw;
-    height: 50px; 
+    height: 50px;
 }
 
 main {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px 40px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 40px 20px;
 }
 
 #root {
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: start;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
