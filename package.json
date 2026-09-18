@@ -13,6 +13,8 @@
         "deploy": "gh-pages -d dist -b deploy"
     },
     "dependencies": {
+        "@tabler/icons": "^3.46.0",
+        "@tabler/icons-react": "^3.46.0",
         "gh-pages": "^6.3.0",
         "react": "^19.2.8",
         "react-dom": "^19.2.8"
