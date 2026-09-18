@@ -104,7 +104,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 8px;
-            max-width: 500px;
+            max-width: 400px;
 
             #artist {
                 width: 100%;

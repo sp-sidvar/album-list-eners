@@ -40,6 +40,8 @@
 
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -49,8 +51,9 @@ header {
 
 main {
     width: 100%;
+    min-height: 85vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 0 20px 40px 20px;
 }
@@ -59,7 +62,6 @@ main {
     max-width: 100%;
     margin: 0 auto;
     text-align: start;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: start;
