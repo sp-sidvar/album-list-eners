@@ -10,6 +10,8 @@
     font-weight: 900;
 
     a {
+        width: 28px;
+        height: 28px;
         text-decoration: none;
         color: var(--border-dark);
         font-family: var(--mono);

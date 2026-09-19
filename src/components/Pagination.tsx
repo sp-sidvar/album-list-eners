@@ -14,6 +14,7 @@ import { IconChevronLeft, IconChevronRight } from '@tabler/icons-react';
  * @returns {React.JSX.Element} Una barra de navegación con enlaces dinámicos para el cambio de páginas.
  *
  */
+
 export function Pagination({
     currentPage = 1,
     totalPages = 5,
@@ -23,11 +24,36 @@ export function Pagination({
     totalPages: number;
     onPageChange: (page: number) => void;
 }) {
-    // Creacion de numeracion respecto a total de paginas por mostrar
-    const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
-
     const firstPage = currentPage === 1;
     const lastPage = currentPage === totalPages;
+
+    // Creacion de paginas visibles en control de navegacion
+    const visiblePages = () => {
+        const maxVisible = 10;
+
+        // Para dispositivos moviles se evita tener mas de 10 elementos en el nav para evitar romper la UI
+        if (totalPages <= maxVisible) {
+            return Array.from({ length: totalPages }, (_, i) => i + 1);
+        }
+
+        let startPage = currentPage - Math.floor(maxVisible / 2);
+        let endPage = currentPage + Math.floor(maxVisible / 2) - 1;
+
+        if (startPage <= 1) {
+            startPage = 1;
+            endPage = maxVisible;
+        }
+
+        if (endPage >= totalPages) {
+            endPage = totalPages;
+            startPage = totalPages - maxVisible + 1;
+        }
+
+        return Array.from(
+            { length: endPage - startPage + 1 },
+            (_, i) => startPage + i,
+        );
+    };
 
     const handlePrevBtn = (event: React.MouseEvent<HTMLAnchorElement>) => {
         event.preventDefault();
@@ -66,7 +92,7 @@ export function Pagination({
                 <IconChevronLeft stroke={2} />
             </a>
 
-            {pages.map((page) => (
+            {visiblePages().map((page) => (
                 <a
                     key={page}
                     href="#"
