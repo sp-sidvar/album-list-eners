@@ -1,45 +1,17 @@
 import type React from 'react';
 import '../classes/filter-style.css';
 
-/**
- * Representa los valores de los filtros seleccionados en el formulario.
- * @interface FilterValues
- */
 export interface FilterValues {
-    /** Texto de búsqueda enfocado en el nombre del artista. */
     search: string;
-    /** Género musical seleccionado en el menú desplegable. */
     genre: string;
-    /** Año de lanzamiento seleccionado en el menú desplegable. */
     anio: string;
 }
 
-/**
- * Propiedades para el componente Filter.
- * @interface FilterProps
- */
 interface FilterProps {
-    /**
-     * Función callback que se ejecuta al enviar (submit) el formulario de filtros.
-     * @param {FilterValues} filters - Objeto con el estado actual de todos los filtros aplicados.
-     */
     onSearch: (filters: FilterValues) => void;
-    /**
-     * Función callback que se ejecuta en tiempo real cada vez que cambia el texto del input de búsqueda.
-     * @param {string} text - El texto actual ingresado en el input.
-     */
     onTextFilter: (text: string) => void;
 }
 
-/**
- * Componente de barra de navegación que contiene un formulario de filtrado para álbumes musicales.
- * Permite buscar por artista en tiempo real, y filtrar por género o año al hacer submit.
- *
- * @component
- * @param {FilterProps} props - Propiedades del componente.
- * @returns {React.JSX.Element} Una barra de navegación con los controles de filtrado.
- *
- */
 export function Filter({ onSearch, onTextFilter }: FilterProps) {
     const currentYear = new Date().getFullYear();
     const years = Array.from(
@@ -115,12 +87,6 @@ export function Filter({ onSearch, onTextFilter }: FilterProps) {
                         </option>
                     ))}
                 </select>
-                <button
-                    id="submitBtn"
-                    type="submit"
-                >
-                    Filtrar
-                </button>
             </form>
         </nav>
     );

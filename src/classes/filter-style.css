@@ -23,10 +23,10 @@
         #artist {
             background-color: var(--border-dark);
             color: var(--text-dark);
-            border: 1px solid #000;
+            border: 1px solid var(--shadow-dark);
             border-radius: 6px;
             padding: 6px 10px;
-            font-size: 13px;
+            font-size: 16px;
             outline: none;
             transition: all 0.2s ease;
             width: 250px;
@@ -43,12 +43,12 @@
         }
 
         #genre {
-            border: 1px solid #000;
+            border: 1px solid var(--shadow-dark);
             background-color: var(--border-dark);
             color: var(--text-dark);
             border-radius: 6px;
             padding: 6px 10px;
-            font-size: 13px;
+            font-size: 16px;
             outline: none;
             transition: all 0.2s ease;
             width: 120px;
@@ -57,40 +57,17 @@
         }
 
         #anio {
-            border: 1px solid #000;
+            border: 1px solid var(--shadow-dark);
             background-color: var(--border-dark);
             color: var(--text-dark);
             border-radius: 6px;
             padding: 6px 10px;
-            font-size: 13px;
+            font-size: 16px;
             outline: none;
             transition: all 0.2s ease;
             width: 120px;
             height: 34px;
             box-sizing: border-box;
-        }
-
-        #submitBtn {
-            background-color: var(--border-dark);
-            color: var(--text-dark);
-            height: 34px;
-            border: none;
-            border-radius: 6px;
-            padding: 0 14px;
-            font-size: 13px;
-            font-weight: 600;
-            cursor: pointer;
-            transition:
-                background-color 0.2s ease,
-                transform 0.1s ease;
-
-            &:hover {
-                background-color: var(--shadow-dark);
-            }
-
-            &:active {
-                transform: scale(0.95);
-            }
         }
     }
 }
