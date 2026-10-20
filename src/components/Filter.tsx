@@ -4,7 +4,7 @@ import '../classes/filter-style.css';
 
 /**
  * Representa la estructura de los valores de filtrado activos.
- * 
+ *
  * @interface FilterValues
  * @property {string} artist - Texto para la búsqueda del artista.
  * @property {string} genre - Categoría de género seleccionada.
@@ -18,7 +18,7 @@ export interface FilterValues {
 
 /**
  * Propiedades aceptadas por el componente Filter.
- * 
+ *
  * @interface FilterProps
  * @property {function(FilterValues): void} onSearch - Función callback disparada en tiempo real cuando un filtro cambia.
  */
@@ -29,7 +29,7 @@ interface FilterProps {
 /**
  * Componente de barra de navegación que renderiza los controles de búsqueda del catálogo.
  * Administra tres estados independientes en tiempo real y de forma simultánea.
- * 
+ *
  * @component
  * @param {FilterProps} props - Las propiedades pasadas al componente.
  * @returns {JSX.Element} El elemento JSX del formulario de filtrado.
@@ -37,10 +37,10 @@ interface FilterProps {
 export function Filter({ onSearch }: FilterProps) {
     /** @type {[string, React.Dispatch<React.SetStateAction<string>>]} Estado local para el filtro de artista */
     const [artistFilter, setArtistFilter] = useState<string>('');
-    
+
     /** @type {[string, React.Dispatch<React.SetStateAction<string>>]} Estado local para el filtro de género */
     const [genreFilter, setGenreFilter] = useState<string>('');
-    
+
     /** @type {[string, React.Dispatch<React.SetStateAction<string>>]} Estado local para el filtro de año */
     const [anioFilter, setAnioFilter] = useState<string>('');
 

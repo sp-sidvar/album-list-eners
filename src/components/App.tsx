@@ -18,11 +18,11 @@ export function App() {
     /** @type {[number, React.Dispatch<React.SetStateAction<number>>]} Estado de la página actual del catálogo */
     const [currentPage, setCurrentPage] = useState<number>(1);
 
-    /** 
+    /**
      * Colección de álbumes filtrados de manera simultánea en memoria.
      * Se evalúa dinámicamente en cada renderizado.
      */
-    const albumsFiltered = albumData.filter((album) => {
+    const baseFiltered = albumData.filter((album) => {
         const artistFiltered =
             filters.artist === '' ||
             album.artist.toLowerCase().includes(filters.artist.toLowerCase());
@@ -36,6 +36,8 @@ export function App() {
 
         return artistFiltered && genreFiltered && anioFiltered;
     });
+
+    const albumsFiltered = [...baseFiltered].reverse();
 
     /** Cantidad total de páginas necesarias basándose en el resultado del filtro */
     const totalPages = Math.ceil(albumsFiltered.length / RESULTS_PER_PAGE);
@@ -57,7 +59,7 @@ export function App() {
     /**
      * Callback optimizado en memoria que intercepta los filtros emitidos por el componente Filter.
      * Evita loops infinitos de renderizado y bloqueos en la paginación evaluando si los valores cambiaron de verdad.
-     * 
+     *
      * @param {FilterValues} newFilters - Los nuevos filtros entrantes desde el formulario.
      */
     const handleSearch = useCallback((newFilters: FilterValues): void => {

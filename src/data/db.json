@@ -2698,5 +2698,158 @@
         "genre": "Rap",
         "year": "2025",
         "redirection": "https://open.spotify.com/album/5IB0A17Q3A0zKgwYoA3U8B"
+    },
+    {
+        "id": "0301",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54076941a374c48bcdd6d13484",
+        "name": "Plays Duke Ellington",
+        "artist": "Thelonious Monk",
+        "genre": "Jazz",
+        "year": "1955",
+        "redirection": "https://open.spotify.com/album/2WpT885yJAIWvglqFcmN8u"
+    },
+    {
+        "id": "0302",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa5412cfe49fe5422dcd58d35dec",
+        "name": "La grande notte di Ringo",
+        "artist": "Franco De Gemini | Carlo Rustichelli",
+        "genre": "Soundtrack",
+        "year": "1966",
+        "redirection": "https://open.spotify.com/album/1TCIJyN4JNIGePIXVyctdr"
+    },
+    {
+        "id": "0303",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa5492d0ebf4de48811deba05223",
+        "name": "Brer Soul",
+        "artist": "Melvin Van Peebles",
+        "genre": "Soul",
+        "year": "1968",
+        "redirection": "https://open.spotify.com/album/3YMSV6sEb5R82U9u6pGTw4"
+    },
+    {
+        "id": "0304",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa540291d92423947dac9186bc8a",
+        "name": "Extension of a Man",
+        "artist": "Donny Hathaway",
+        "genre": "R&b",
+        "year": "1973",
+        "redirection": "https://open.spotify.com/album/5PSewqr3UuWgOsULPNcgj7"
+    },
+    {
+        "id": "0305",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa549cb7f7c9261ef85a9a8d8e2e",
+        "name": "華麗なるエレクトーン -サマータイム-",
+        "artist": "SHIGEO SEKITO",
+        "genre": "Jazz",
+        "year": "1977",
+        "redirection": "https://open.spotify.com/album/5STN9WkizILrlz9TmpNJkI"
+    },
+    {
+        "id": "0306",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54bb13704c99c5099a6ecdf993",
+        "name": "Repertório Infindável de Dolorosas Piadas",
+        "artist": "gorduratrans",
+        "genre": "Punk rock",
+        "year": "2015",
+        "redirection": "https://open.spotify.com/album/6X9JLA7GzqPD9UEowimbFw"
+    },
+    {
+        "id": "0307",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54d9a203dcd8b8c398285a69b3",
+        "name": "Kapo",
+        "artist": "Carlo Rustichelli",
+        "genre": "Soundtrack",
+        "year": "1960",
+        "redirection": "https://open.spotify.com/album/3F6jloI0xRjSttY8h7hxIN"
+    },
+    {
+        "id": "0308",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa5430a635de2bb0caa4e26f6abb",
+        "name": "Igor",
+        "artist": "Tyler, The Creator",
+        "genre": "Rap",
+        "year": "2019",
+        "redirection": "https://open.spotify.com/album/5zi7WsKlIiUXv09tbGLKsE"
+    },
+    {
+        "id": "0309",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa5483ce012bf3bc164aefbbf9fe",
+        "name": "Dragones y Parroquias de Barrio",
+        "artist": "Hide Tyson | Sokez | Trozos DE Groove",
+        "genre": "Rap",
+        "year": "2021",
+        "redirection": "https://open.spotify.com/album/0JryQEN2QRzfttZ6JXzMMT"
+    },
+    {
+        "id": "0310",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa545c55f6850bebf0a64b373b3c",
+        "name": "BBO",
+        "artist": "Hoke | Louis Amoeba",
+        "genre": "Rap",
+        "year": "2022",
+        "redirection": "https://open.spotify.com/album/0ofRuEkUDbOtzmxqeZs8Pw"
+    },
+    {
+        "id": "0311",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54a2ec51bf8fae2c3c17519135",
+        "name": "I Miei Stati D'Animo",
+        "artist": "Lelio Luttazzi",
+        "genre": "Jazz",
+        "year": "2017",
+        "redirection": "https://open.spotify.com/album/5mj6RqwUSe6BzB29u5p3c9"
+    },
+    {
+        "id": "0312",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54e01d7d558032457b0e4883f6",
+        "name": "Brand New Eyes",
+        "artist": "Paramore",
+        "genre": "Rock",
+        "year": "2009",
+        "redirection": "https://open.spotify.com/album/27UqZoE1kV6sIV6uQcI28A"
+    },
+    {
+        "id": "0313",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54f8f0a26e4100c490bc384003",
+        "name": "Let's Get It On",
+        "artist": "Marvin Gaye",
+        "genre": "Jazz",
+        "year": "1973",
+        "redirection": "https://open.spotify.com/album/1oIICL75sMuInkEhX8jj3b"
+    },
+    {
+        "id": "0314",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54c4a090a948bb507352f6bd74",
+        "name": "Baby You Got It",
+        "artist": "Brenton Wood",
+        "genre": "Soul",
+        "year": "1968",
+        "redirection": "https://open.spotify.com/album/6k6HGujFFmxxqt4cD1AL4N"
+    },
+    {
+        "id": "0315",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa541c31f9f6bf1474d33d987add",
+        "name": "Rock 'n' Roll",
+        "artist": "Frankie Lymon",
+        "genre": "Rock & roll",
+        "year": "1958",
+        "redirection": "https://open.spotify.com/album/3jMNWQDJ5Xi9pCvle0NCca"
+    },
+    {
+        "id": "0316",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa5415aa0064a4b1487f5c665c37",
+        "name": "Cool Struttin’",
+        "artist": "Sonny Clark",
+        "genre": "Jazz",
+        "year": "1958",
+        "redirection": "https://open.spotify.com/album/2yWj7slAmHfBohXn40HKVU"
+    },
+    {
+        "id": "0317",
+        "cover": "https://i.scdn.co/image/ab67616d0000aa54f44518f7aea6cc64ecca8448",
+        "name": "Birth Of The Cool",
+        "artist": "Miles Davis",
+        "genre": "Jazz",
+        "year": "1957",
+        "redirection": "https://open.spotify.com/album/0QWea2w5Y6pSoSWHuc7JMf"
     }
 ]

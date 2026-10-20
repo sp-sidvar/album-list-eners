@@ -17,6 +17,10 @@ Esta aplicacion ayudara a compartir albumes musicales con el publico que desee c
 - Posibilidad de calificar el album segun gustos (de manera local a forma de clasificacion aniadiendo nuevo filtro)
 - Posibilidad de agregar comentarios o notas a los albumes
 - Posibilidad de realizar recomendaciones de nuevos albumes
+- agregan funcion de 'sorprendeme'
+- agregar funcion de favoritos (persistencia a nivel LS)
+- realizar actualizacion semanal
+- limitar listado de albumes 
 
 ## UI
 
